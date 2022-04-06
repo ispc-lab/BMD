@@ -1,0 +1,95 @@
+==========================================
+pythonmain_source.py --dataset VisDA --backbone resnet101 --lr 0.001 --without_wandb --note smooth_source --s_idx 0 --num_workers 8 --seed 2021 --epochs 10
+dataset:VisDA
+backbone_arch:resnet101
+embed_feat_dim:256
+s_idx:0
+t_idx:1
+distance:cosine
+checkpoint:None
+start_epoch:0
+epochs:10
+lr:0.001
+gpu:0
+num_workers:8
+batch_size:64
+without_wandb:True
+weight_decay:0.001
+test:False
+note:smooth_source
+seed:2021
+multi_cent_num:4
+topk_seg:3
+lam_psd:0.3
+lam_dym:0.1
+lam_reg:1.0
+lam_ent:1.0
+source_data_dir:./data/VisDA/train/
+target_data_dir:./data/VisDA/validation/
+class_num:12
+log_file:None
+save_dir:./checkpoints_sfda/VisDA/source_0/source_checkpoint_smooth_source_seed_2021
+==========================================
+=================================================
+        START TRAINING ON THE SOURCE:0          
+=================================================
+Epoch:0/10
+train_loss:0.724
+test_loss:0.631
+99.31 99.46 96.63 95.14 99.59 99.22 98.68 99.75 99.91 98.32 94.49 93.10	test_acc:97.80
+best_epoch:0 
+best_test_acc:97.80	99.31 99.46 96.63 95.14 99.59 99.22 98.68 99.75 99.91 98.32 94.49 93.10
+Epoch:1/10
+train_loss:0.629
+test_loss:0.607
+99.86 99.59 98.52 95.62 99.69 99.71 98.79 99.66 100.00 99.41 96.43 94.77	test_acc:98.51
+best_epoch:1 
+best_test_acc:98.51	99.86 99.59 98.52 95.62 99.69 99.71 98.79 99.66 100.00 99.41 96.43 94.77
+Epoch:2/10
+train_loss:0.611
+test_loss:0.592
+99.93 99.59 98.99 96.73 99.69 99.71 99.60 99.75 100.00 99.75 96.93 97.18	test_acc:98.99
+best_epoch:2 
+best_test_acc:98.99	99.93 99.59 98.99 96.73 99.69 99.71 99.60 99.75 100.00 99.75 96.93 97.18
+Epoch:3/10
+train_loss:0.601
+test_loss:0.586
+99.93 99.86 98.88 97.53 99.69 99.79 99.54 99.83 100.00 99.83 98.00 96.23	test_acc:99.09
+best_epoch:3 
+best_test_acc:99.09	99.93 99.86 98.88 97.53 99.69 99.79 99.54 99.83 100.00 99.83 98.00 96.23
+Epoch:4/10
+train_loss:0.595
+test_loss:0.582
+100.00 99.73 99.41 98.80 99.79 99.86 99.77 99.75 100.00 99.92 98.00 95.40	test_acc:99.20
+best_epoch:4 
+best_test_acc:99.20	100.00 99.73 99.41 98.80 99.79 99.86 99.77 99.75 100.00 99.92 98.00 95.40
+Epoch:5/10
+train_loss:0.590
+test_loss:0.580
+99.93 99.59 99.29 97.69 99.69 99.64 99.77 99.92 100.00 99.58 98.31 98.12	test_acc:99.29
+best_epoch:5 
+best_test_acc:99.29	99.93 99.59 99.29 97.69 99.69 99.64 99.77 99.92 100.00 99.58 98.31 98.12
+Epoch:6/10
+train_loss:0.587
+test_loss:0.575
+100.00 99.73 99.11 98.33 99.69 99.71 99.88 99.92 100.00 99.92 98.87 97.70	test_acc:99.40
+best_epoch:6 
+best_test_acc:99.40	100.00 99.73 99.11 98.33 99.69 99.71 99.88 99.92 100.00 99.92 98.87 97.70
+Epoch:7/10
+train_loss:0.584
+test_loss:0.573
+100.00 99.86 98.93 98.65 99.79 99.79 99.88 99.92 100.00 99.75 98.87 98.33	test_acc:99.48
+best_epoch:7 
+best_test_acc:99.48	100.00 99.86 98.93 98.65 99.79 99.79 99.88 99.92 100.00 99.75 98.87 98.33
+Epoch:8/10
+train_loss:0.582
+test_loss:0.572
+100.00 99.73 99.41 99.04 99.79 100.00 99.83 99.83 100.00 99.58 98.69 98.01	test_acc:99.49
+best_epoch:8 
+best_test_acc:99.49	100.00 99.73 99.41 99.04 99.79 100.00 99.83 99.83 100.00 99.58 98.69 98.01
+Epoch:9/10
+train_loss:0.580
+test_loss:0.569
+100.00 99.86 99.29 99.12 99.79 100.00 99.88 99.83 100.00 99.75 98.87 98.54	test_acc:99.58
+best_epoch:9 
+best_test_acc:99.58	100.00 99.86 99.29 99.12 99.79 100.00 99.88 99.83 100.00 99.75 98.87 98.54
