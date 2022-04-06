@@ -139,6 +139,6 @@ wandb
 *.pth
 
 # data
-./data_old
+data_old
 # figs
-./figs
+figs
