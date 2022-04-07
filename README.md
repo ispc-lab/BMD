@@ -26,7 +26,7 @@ If you find it helpful, please consider citing:
 @article{sanqing2022BMD,
   title={BMD: A General Class-balanced Multicentric Dynamic Prototype Strategy for Source-free Domain Adaptation},
   author={Sanqing Qu, Guang Chen, Jing Zhang, Zhijun Li, Wei He, Dacheng Tao},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2204.02811},
   year={2022}
 }
 ```
