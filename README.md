@@ -1,4 +1,6 @@
-## BMD: Class-balanced Multicentric Dynamic Prototype Strategy for SFDA.
+## [BMD: Class-balanced Multicentric Dynamic Prototype Strategy for SFDA](https://arxiv.org/abs/2204.02811).
+
+:tada: Our paper is accepted by ECCV 2022!
 
 The official repository of our paper "BMD: A General Class-balanced Multicentric Dynamic Prototype Strategy for Source-free Domain Adaptation". Here, we present the demo implementation on VisDA-C dataset.
 
@@ -23,10 +25,10 @@ This codebase is based on [SHOT-ICML2020](https://github.com/tim-learn/SHOT).
 ### Citation
 If you find it helpful, please consider citing:
 ```
-@article{sanqing2022BMD,
+@inproceedings{sanqing2022BMD,
   title={BMD: A General Class-balanced Multicentric Dynamic Prototype Strategy for Source-free Domain Adaptation},
   author={Sanqing Qu, Guang Chen, Jing Zhang, Zhijun Li, Wei He, Dacheng Tao},
-  journal={arXiv preprint arXiv:2204.02811},
+  booktitle={European conference on computer vision},
   year={2022}
 }
 ```
