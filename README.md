@@ -1,6 +1,8 @@
-## [BMD: Class-balanced Multicentric Dynamic Prototype Strategy for SFDA](https://arxiv.org/abs/2204.02811).
+## [BMD: Class-balanced Multicentric Dynamic Prototype Strategy for SFDA [ECCV 2022]](https://arxiv.org/abs/2204.02811).
 
-:tada: Our paper is accepted by ECCV 2022!
+
+#### Attention: Our new work on source-free universal domain adaptation has been accepted by CVPR-2023! The paper "Upcycling Models under Domain and Category Shift" is available at [https://arxiv.org/abs/2303.07110](https://arxiv.org/abs/2303.07110). The code also has been made public at [https://github.com/ispc-lab/GLC](https://github.com/ispc-lab/GLC).
+
 
 The official repository of our paper "BMD: A General Class-balanced Multicentric Dynamic Prototype Strategy for Source-free Domain Adaptation". Here, we present the demo implementation on VisDA-C dataset.
 
